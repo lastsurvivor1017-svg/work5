@@ -11,6 +11,7 @@
     --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-amber-600: oklch(66.6% 0.179 58.318);
     --color-amber-950: oklch(27.9% 0.077 45.635);
@@ -192,6 +193,15 @@
   .mt-\[2\] {
     margin-top: 2;
   }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
+  .mt-\[30px\] {
+    margin-top: 30px;
+  }
   .mt-\[100px\] {
     margin-top: 100px;
   }
@@ -213,6 +223,9 @@
   .h-\[\%\] {
     height: %;
   }
+  .h-\[2px\] {
+    height: 2px;
+  }
   .h-\[10\] {
     height: 10;
   }
@@ -224,6 +237,9 @@
   }
   .h-\[20\%\] {
     height: 20%;
+  }
+  .h-\[23\%\] {
+    height: 23%;
   }
   .h-\[25\%\] {
     height: 25%;
@@ -239,6 +255,9 @@
   }
   .h-\[35\%\] {
     height: 35%;
+  }
+  .h-\[36px\] {
+    height: 36px;
   }
   .h-\[40\%\] {
     height: 40%;
@@ -270,6 +289,9 @@
   .h-\[76\%\] {
     height: 76%;
   }
+  .h-\[78\%\] {
+    height: 78%;
+  }
   .h-\[80\%\] {
     height: 80%;
   }
@@ -284,6 +306,9 @@
   }
   .h-\[100\%\] {
     height: 100%;
+  }
+  .h-\[640px\] {
+    height: 640px;
   }
   .h-\[675px\] {
     height: 675px;
@@ -306,11 +331,17 @@
   .w-\[4\] {
     width: 4;
   }
+  .w-\[12\%\] {
+    width: 12%;
+  }
   .w-\[15\%\] {
     width: 15%;
   }
   .w-\[20\%\] {
     width: 20%;
+  }
+  .w-\[23\%\] {
+    width: 23%;
   }
   .w-\[25\%\] {
     width: 25%;
@@ -329,6 +360,9 @@
   }
   .w-\[35\%\] {
     width: 35%;
+  }
+  .w-\[36px\] {
+    width: 36px;
   }
   .w-\[40\%\] {
     width: 40%;
@@ -365,6 +399,9 @@
   }
   .w-\[80\%\] {
     width: 80%;
+  }
+  .w-\[85\%\] {
+    width: 85%;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -426,8 +463,17 @@
   .gap-\[40px\] {
     gap: 40px;
   }
+  .gap-\[70px\] {
+    gap: 70px;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+  .rounded-\[14px\] {
+    border-radius: 14px;
   }
   .rounded-\[15px\] {
     border-radius: 15px;
@@ -475,6 +521,15 @@
   .bg-\[\#211F54\] {
     background-color: #211F54;
   }
+  .bg-\[\#EDF5FF\] {
+    background-color: #EDF5FF;
+  }
+  .bg-\[0075FF\#\] {
+    background-color: 0075FF#;
+  }
+  .bg-\[0075FF\] {
+    background-color: 0075FF;
+  }
   .bg-\[aq\] {
     background-color: aq;
   }
@@ -492,6 +547,9 @@
   }
   .bg-\[blue\] {
     background-color: blue;
+  }
+  .bg-\[red0\] {
+    background-color: red0;
   }
   .bg-\[red\] {
     background-color: red;
@@ -513,6 +571,9 @@
   }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
+  }
+  .bg-amber-400 {
+    background-color: var(--color-amber-400);
   }
   .bg-amber-500 {
     background-color: var(--color-amber-500);
@@ -543,6 +604,9 @@
   }
   .py-\[15px\] {
     padding-block: 15px;
+  }
+  .py-\[16px\] {
+    padding-block: 16px;
   }
   .py-\[17px\] {
     padding-block: 17px;
@@ -613,6 +677,9 @@
   }
   .text-\[\#6E7191\] {
     color: #6E7191;
+  }
+  .text-\[\#0075FF\] {
+    color: #0075FF;
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
